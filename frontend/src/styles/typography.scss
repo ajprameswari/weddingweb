@@ -1,0 +1,15 @@
+h1 {
+  @apply font-bold text-4xl lg:text-6xl;
+}
+
+h2 {
+  @apply font-bold text-xl mt-1 lg:text-3xl lg:mt-2;
+}
+
+h3 {
+  @apply font-semibold text-base mt-0.5 lg:text-xl lg:mt-1;
+}
+
+label {
+  @apply text-sm font-bold;
+}

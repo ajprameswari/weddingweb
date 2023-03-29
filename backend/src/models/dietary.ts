@@ -1,0 +1,5 @@
+export enum Dietary {
+  EATS_EVERYTHING ='EATS_EVERYTHING',
+  FISH_ONLY = 'FISH_ONLY',
+  VEGETARIAN = 'VEGETARIAN'
+}

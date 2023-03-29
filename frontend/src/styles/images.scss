@@ -1,0 +1,17 @@
+
+.img-block {
+  @apply flex justify-center items-center mb-4;
+}
+
+.img-container {
+  @apply w-64 h-64 lg:w-80 lg:h-80;
+}
+
+.img-container > .img {
+  @apply w-full h-full;
+  background-size: cover;
+}
+
+.section-img {
+  @apply rounded-full opacity-50;
+}

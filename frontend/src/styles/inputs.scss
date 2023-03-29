@@ -1,0 +1,52 @@
+.input-base {
+  @apply rounded-md p-2 w-52 border-swirl border-2;
+}
+
+input, select {
+  @apply input-base;
+}
+
+input:focus, select:focus {
+  @apply outline-none;
+}
+
+input:disabled, select:disabled {
+  @apply bg-merino;
+  @apply opacity-50;
+}
+
+.input-section {
+  @apply flex flex-col items-start mt-4 w-full;
+}
+
+.invalid {
+  @apply border-error border-2;
+}
+
+button {
+  @apply rounded p-2 border border-donkey transition-colors;
+}
+
+button:disabled {
+  @apply bg-opacity-0 border-opacity-25 opacity-50;
+}
+
+button:active:not(:disabled) {
+  @apply bg-cashmere;
+}
+
+.primary {
+  @apply bg-donkey text-merino;
+}
+
+.primary:disabled {
+  @apply bg-opacity-50 opacity-50;
+}
+
+.primary:active:not(:disabled) {
+  @apply bg-millbrook;
+}
+
+input[type=checkbox] {
+  @apply w-6 h-6 mt-0.5 mb-4;
+}
